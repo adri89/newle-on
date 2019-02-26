@@ -75,4 +75,3 @@ myForm.addEventListener('submit', (event) => {
 })
 
 
-const API_KEY = '6tF8MV88jx40ZRNBVnJQSmi4fSl13AxO'
