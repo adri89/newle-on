@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(235, 225, 225);
+}
+
+
+
+#first-div{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+img{
+    width: 100%;
+    
+}
+img:hover{
+    opacity: 0.8;
+}
+
+h1{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(224, 31, 31);
+    
+}
+
+.paragraphe{
+    
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.imagetimeline{
+    width: 100%;
+    
+}
+.imagetimelinee{
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+h2{
+    position: absolute;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    bottom: 2px;
+    right: 145px;
+    color: rgb(224, 31, 31);;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-weight: 100;
+    top: 350px;
+    color: rgb(224, 31, 31);;
+    margin: 5px;
+
+}
+
+#primaire{
+    color: red;
+}
+
+#poule{
+    text-align: center;
+    background-color: black;
+}
