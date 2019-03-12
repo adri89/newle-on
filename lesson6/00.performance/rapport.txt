@@ -1,0 +1,18 @@
+Rapport:  https://notvenomous.com/
+
+Nous pouvons constater sur la capture d'écran de l'audit de chrome, que les métrics de la page web sont relativement bonne pour une performance moyenne de 77.
+Cependant les métrics suivante peuvent être amélioré : speed index (4.0s) First cpu idle (5.6s) Time to interactive (6.0s) et estimate Input Latency (140 ms).
+
+Donc les possibilitées recommandés sont: 
+
+-Diffusez des images aux formats nouvelle génération (JPEG 2000, JPEG XR et WebP) gain de 0.9 s
+-Réduisez les délais de réponse du serveur (TTFB) 0.2s
+-Éliminez les ressources qui bloquent le rendu  0.15s
+-Différez le chargement des ressources CSS inutilisées 0.15s
+-Encodez les images de manière efficace 0.15s
+
+-Assurez-vous que le texte reste visible pendant le chargement des polices Web
+-"Réduisez le travail du thread principal 5.7s"
+-"Diffusez des éléments statiques grâce à des règles de cache efficaces"
+-Réduisez le temps d'exécution de JavaScript 3.2s
+-Évitez une taille excessive de DOM 853 noeuds
